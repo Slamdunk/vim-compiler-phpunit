@@ -16,7 +16,7 @@ let s:cpo_save = &cpoptions
 set cpoptions-=C
 
 CompilerSet makeprg=phpunit
-CompilerSet errorformat=%E%n)\ %.%#,%Z%f:%l,%C%m,%C,%-G%.%#
+CompilerSet errorformat=%f:%l
 
 let &cpoptions = s:cpo_save
 unlet s:cpo_save
