@@ -6,7 +6,7 @@ Make quickfix work fine with vim-test and phpunit
 Using [vim-plug](https://github.com/junegunn/vim-plug), add
 
 ```vim
-Plug 'janko-m/vim-test'
+Plug 'vim-test/vim-test'
 Plug 'tpope/vim-dispatch'
 Plup 'haginaga/vim-compiler-phpunit'
 ```
